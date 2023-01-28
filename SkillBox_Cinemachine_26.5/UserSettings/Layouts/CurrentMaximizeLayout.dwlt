@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 28942
+  controlID: 1482
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28943
+  controlID: 1483
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28928
+  controlID: 1331
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,9 +223,9 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: fef9feff
-      m_LastClickedID: -67074
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e05f0000
+      m_LastClickedID: 0
       m_ExpandedIDs: dcabfeff9aeefeff28f9feff0a15ffffda72ffff089fffff68f0ffffd0f2ffffe0f2ffffd6f9ffffe4f9ffff32fbffff4e5b0000525b00008e5b00009e5b0000385c00004c5c0000505c0000965c0000ac5c0000bc5c0000365d0000805d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0072518396, y: 0.9887804, z: -0.14095207, w: -0.05102694}
     speed: 2
-    m_Value: {x: -0.0072510773, y: 0.9886764, z: -0.14093725, w: -0.051021576}
+    m_Value: {x: -0.007251839, y: 0.9887803, z: -0.14095205, w: -0.05102694}
   m_Size:
     m_Target: 31.264297
     speed: 2
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28944
+  controlID: 1484
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: TimelineWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -625,16 +625,16 @@ MonoBehaviour:
     y: 0
     width: 780
     height: 294.8
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 3
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 3
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -698,7 +698,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_SequenceHierarchy: {fileID: 0}
   m_SequencePath:
-    m_SelectionRoot: 0
+    m_SelectionRoot: 23670
     m_SubElements: []
 --- !u!114 &13
 MonoBehaviour:
@@ -821,23 +821,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Sadness
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
+  m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Den\SkillBox_Cinemachine_26.5
+  m_LastProjectPath: C:\Users\Den\Documents\GitHub\SkillBox_DZ_Cinemachine\SkillBox_Cinemachine_26.5
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: f4670000
     m_LastClickedID: 26612
-    m_ExpandedIDs: ffffffff00000000f4670000f8670000fa67000000680000b0720100c2720100fc740100729201002a98010018ae01001aae010000ca9a3b
+    m_ExpandedIDs: ffffffff00000000fc680000fe68000000690000026900000469000006690000086900000a6900000c6900000e69000010690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -863,9 +861,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 248}
-    m_SelectedIDs: fef9feff
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f4670000f8670000fa67000000680000b0720100c2720100fc740100729201002a98010018ae01001aae010000ca9a3b
+    m_ExpandedIDs: ffffffff00000000fc680000fe68000000690000026900000469000006690000086900000a6900000c6900000e69000010690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -890,8 +888,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fef9feff
-    m_LastClickedInstanceID: -67074
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ea5f0100585e0100
     m_RenameOverlay:
